@@ -44,7 +44,7 @@ def index():
     response = {
         "slack_name": slack_name,
         "current_day": current_day,
-        "current_time": current_time,
+        "utc_time": current_time,
         "track": track,
         "github_file_url": github_file_url,
         "github_repo_url": github_repo_url,
